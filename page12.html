@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/all.css" />
+	<meta charset="UTF-8">
+	<title>CSS留白(padding)-1Keydata CSS語法教學</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>CSS留白</h1>
+		</div>
+	<nav class="menu">
+			<ul>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/cascade.php">CSS串接</a>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/length-units.php">CSS長度單位</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/padding.php">CSS留白</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/link.php">CSS連接</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/text.php">CSS文字</a></li>
+			</ul>
+		</nav>
+	<div class="sidebody">
+		<h2 ><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/">CSS 教學</a>  &gt;  留白</h2>
+	<p>我們從盒子模式那一頁看到，留白 (padding) 是在內容外，邊框內的部分。一個盒子有四個邊，所以我們可以對這四個邊的留白逐一設定：</p>
+	<ul>
+		<li>padding-top (上) 
+		<li>padding-right (右) 
+		<li>padding-bottom (下) 
+		<li>padding-left (左)
+	</ul>
+	<p>第五個屬性，<a class="nodecoration"href="http://www.1keydata.com/css-tutorial/tw/padding.php#padding">padding</a>，是用來作為同時設定四個邊留白的捷徑屬性。</p>
+	<p>有三種方式可以設定留白，分別為長度、百分比、以及 'auto'。我們來看以下的例子：</p>
+	<div class="DDDDDD"> 
+		#container { <br/>
+		padding-top:15px; <br/>
+ 		padding-left:10px; <br/>
+ 		padding-right:30px; <br/>
+ 		padding-bottom:40px; <br/>
+ 		border: 1px solid 000000; <br/>
+		}
+		</div>
+	
+	<p>以下的 HTML碼，</p>
+	<div class="DDDDDD">
+		&lt;div id="container"&gt; <br/>
+		這是留白的例子。這裡對了上、下、左、右的留白空間都有設定。 <br/>
+		&lt;/div&gt;<br/>
+	</div>
+	<p>會顯示出，</p>
+	<p class="paddingtopleftrightbottom">這是留白的例子。這裡對了上、下、左、右的留白空間都有設定。</p>
+	<p>在這裡，上面的留白為 15px，左邊的留白為 10px，右面的留白為 30px，而下面的留白為 40px。</p>
+	<h3>留白捷徑</h3>
+		<p>所有四個邊的留白可以同時由 padding 屬性設定。它的語法如下：</p>
+		<p style="color:#006600">padding: [上面留白值] [右邊留白值] [下面留白值] [左邊留白值]</p>
+		<p>在這裡，順序非常重要。第一個值一定是上面留白的值，第二個值一定是右邊留白的值，第三個值一定是下面留白的值，而第四個值一定是左邊留白的值。</p>
+	</div>
+	<p class="footer">下一頁： <a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/background.php">CSS 背景</a></p>
+</body>
+</html>

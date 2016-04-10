@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/all.css" />
+	<meta charset="UTF-8">
+	<title>CSS文字(Text)-1Keydata CSS語法教學</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>CSS 文字</h1>
+		</div>
+	<nav class="menu">
+			<ul>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/cascade.php">CSS串接</a>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/length-units.php">CSS長度單位</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/padding.php">CSS留白</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/link.php">CSS連接</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/text.php">CSS文字</a></li>
+			</ul>
+		</nav>
+	<div class="sidebody">
+		<h2 ><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/">CSS 教學</a>  &gt;  文字</h2>
+	<p>以下是幾個最常被用到與文字樣式有關的 CSS 屬性。</p>
+	<ul>
+		<li><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/text.php#direction">direction</a>
+		<li><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/text.php#letterspacing">letter-spacing</a>
+		<li><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/text.php#lineheight">line-height</a>
+		<li><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/text.php#textalign">text-align</a>
+		<li><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/text.php#textdecoration">text-decoration</a>
+		<li><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/text.php#textindent">text-indent</a>
+		<li><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/text.php#texttransform">text-transform</a>
+		<li><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/text.php#wordspacing">word-spacing</a>
+	</ul>
+	<h3>direction</h3>
+		<p>direction 屬性是用來設定文字的方向。可能的值為 'ltr' 及 'rtl'。</p>
+		<p>舉例來說，若 CSS 宣告是，</p>
+		<p class="DDDDDD">
+			p { <br/>
+  			direction:ltr; <br/>
+			}<br/>
+		</p>
+		<p>那以下的 HTML 碼，</p>
+		<p class="DDDDDD">&lt;p&gt;LTR 方向&lt;/p&gt;</p>
+		<p>就會顯現</p>
+		<p class="CCFFCC ltr">LTR 方向</p>
+
+		<p>若 CSS 宣告是，</p>
+		<p class="DDDDDD">
+			p { <br/>
+ 			 direction:rtl; <br/>
+			}<br/>
+		</p>
+		<p>那以下的 HTML 碼，</p>
+		<p class="DDDDDD">&lt;p&gt;RTL 方向&lt;/p&gt;</p>
+		<p>就會顯現</p>
+		<p class="CCFFCC rtl">RTL 方向</p>
+
+	<h3>letter-spacing</h3>
+		<p>letter-spacing 屬性是用來設定每一個字母之間的空間。舉例來說，若 CSS 宣告是，</p>
+		<p class="DDDDDD">
+			p { <br/>
+ 			 letter-spacing:8px; <br/>
+			}<br/>
+		</p>
+		<p>那以下的 HTML 碼，</p>
+		<p class="DDDDDD">&lt;p&gt;8px between letters&lt;/p&gt;</p>
+		<p>就會顯現</p>
+		<p class="CCFFCC letterspacing">8px between letters</p>
+
+	<h3>line-height</h3>
+		<p>line-height 屬性是用來設定每一行之間的空間。舉例來說，若 CSS 宣告是，</p>
+		<p class="DDDDDD">
+			p { <br/>
+		  	line-height:40px; <br/>
+			}<br/>
+		</p>
+		<p>那以下的 HTML 碼，</p>
+		<p class="DDDDDD">&lt;p&gt;第一行和第二行之間&lt;br&gt;相隔 40px。&lt;/p&gt;</p>
+		<p>就會顯現</p>
+		<p class="CCFFCC linehight">第一行和第二行之間<br/>
+			相隔 40px。
+		</p>
+
+	<h3>text-align</h3>
+		<p>text-align 屬性是用來設定文字是如何對齊。可能的值包括：</p>
+		<ul>
+			<li>left： 靠左對齊
+			<li>right： 靠右對齊
+			<li>center： 向中間對齊
+			<li>justify： 左右對齊
+		</ul>
+		<p>請看以下的例子：</p>
+			<table border="1">
+		<tr>
+			<td>CSS 樣式</td>
+			<td>顯現結果</td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+ 				 text-align:left; <br/>
+				}</td>
+			<td class="textleft">這一段句子，是靠左對齊的例子。 </td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+ 				 text-align:right; <br/>
+				} </td>
+			<td class="textright">這一段句子，是靠右對齊的例子。 </td>
+		</tr>
+		<tr>
+			<td>p {  <br/>
+  				text-align:center;  <br/>
+				}  </td>
+			<td class="textcenter">這一段句子，是向中間對齊的例子。 </td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+  				text-align:justify; <br/>
+				}  </td>
+			<td class="textjustify">這一段句子，是左右兩邊都對齊的例子。</td>
+		</tr>
+		</table>
+		
+	<h3>text-decoration</h3>
+		<p>text-decoration 屬性是用來設定文字上有什麼裝飾。可能的值包括：</p>
+		<ul>
+			<li>underline: 文字下加上一條線。
+			<li>overline: 文字上加上一條線。
+			<li>line-through: 文字中間加上一條線劃過去。
+			<li>blink: 讓文字閃爍。
+		</ul>
+		<table border="1">
+		<tr>
+			<td>CSS 樣式</td>
+			<td>顯現結果</td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+  				text-decoration:underline; <br/>
+				}</td>
+			<td class="underline">文字下加一條線 </td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+  				text-decoration:overline; <br/>
+				}</td>
+			<td class="overline">文字上加上一條線 </td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+  				text-decoration:line-through; <br/>
+				}  </td>
+			<td class="line-through">文字中間加上一條線劃過去 </td>
+		</tr>
+		</table>
+	<h3>text-indent</h3>
+		<p>text-indent 屬性是用來設定每一段的第一行前面要留多少空間。可設定的值包括百分比以及長度。<br/>舉例來說，若有以下的 CSS 宣告，</p>
+		<p class="DDDDDD">p { <br/>
+ 			 text-indent:15px; <br/>
+			}</p>
+		<p>那以下的 HTML 碼，</p>
+		<p class="DDDDDD">&lt;p&gt;這一段第一行的最前面會留 15px 的空間。之後的行數就沒有留任和空間了。&lt;/p&gt;</p>
+		<p>就會顯現，</p>
+		<p class="CCFFCC indent">這一段第一行的最前面會留 15px 的空間。之後的行數就沒有留任和空間了。</p>
+
+	<h3>text-transform</h3>
+		<p>text-transform 屬性是用來控制大小寫是如何展現的。可能的值包括：</p>
+		<ul>
+			<li>capitalize： 每一個字的第一個字母都以大寫顯現，其他的字母則不改變。
+			<li>uppercase： 所有的字母都以大寫顯現。
+			<li>lowercase： 所有的字母都以小寫顯現。
+			<li>none： 大小寫不做任何改變。
+		</ul>
+		<p>舉例來說，用以上這幾個值用在 "this is a LAWYER" 這幾個字上，我們回得到以下的結果：</p>
+		<table border="1" >
+		<tr>
+			<td>CSS 樣式</td>
+			<td>顯現結果</td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+  				text-transform:capitalize; <br/>
+				}</td>
+			<td class="capitalize">this is a LAWYER </td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+  				text-transform:uppercase; <br/>
+				}</td>
+			<td class="uppercase">this is a LAWYER </td>
+		</tr>
+		<tr>
+			<td>p { <br/>
+  				text-transform:lowercase; <br/>
+				} </td>
+			<td class="lowercase">this is a LAWYER </td>
+		</tr>
+		</table>
+
+	<h3>word-spacing</h3>
+		<p>word-spacing 屬性是用來設定每個字與每個字之間的距離。舉例來說，若 CSS 宣告是，</p>
+		<p class="DDDDDD">p { <br/>
+  			word-spacing:5px; <br/>
+			}</p>
+		<p>那以下的 HTML 碼，</p>
+		<p class="DDDDDD">&lt;p&gt;Words here are separated by 5px.&lt;/p&gt;</p>
+		<p>就會顯現，</p>
+		<p class="CCFFCC wordspacing">Words here are separated by 5px.</p>
+	</div>
+	<p class="footer">下一頁： <a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/float.php">CSS 浮動</a></p>
+</body>
+</html>

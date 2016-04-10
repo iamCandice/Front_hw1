@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/all.css" />
+	<meta charset="UTF-8">
+	<title>CSS連接-1Keydata CSS語法教學</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>CSS 連接</h1>
+		</div>
+	<nav class="menu">
+			<ul>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/cascade.php">CSS串接</a>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/length-units.php">CSS長度單位</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/padding.php">CSS留白</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/link.php">CSS連接</a></li>
+				<li><a href="http://www.1keydata.com/css-tutorial/tw/text.php">CSS文字</a></li>
+			</ul>
+		</nav>
+	<div class="sidebody">
+		<h2 ><a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/">CSS 教學</a>  &gt;  連接</h2>
+	<p>連接的預設樣式是藍色，且有下劃線。可是，有的時候，我們會想要改變一下這個預設的樣式。這可以透過以下幾個選擇器來達成：</p>
+	<p><b>a:link</b>: 設定當連接過去的網頁尚未被看過時，該連接的樣式。</p>
+	<p><b>a:visited</b>: 設定當連接過去的網頁已經看過時，該連接的樣式。</p>
+	<p><b>a:hover</b>: 設定當滑鼠蓋在連接上面時，該連接的樣式。</p>
+	<p><b>a:active</b>: 設定當連接被點擊時，該連接的樣式。</p>
+	<p>讓我們來看看以下的樣式：</p>
+	
+	<p class="DDDDDD">
+		a:link {color:#FF0000; text-decoration:none;} <br/>
+		a:visited {color:#0000FF; text-decoration:none;}  <br/>
+		a:hover {font-size:20; color:#00FF00; text- decoration:underline;} <br/>
+		a:active {color:#FF00FF; text-decoration:underline;}<br/>
+	</p>
+	<p>以上樣式的意思為： </p>
+	<ol>
+		<li>一開始時，連接文字的顏色是紅色。</li>
+		<li>一但被連接的頁面有被看過，連接文字顏色就變為藍色。</li>
+		<li>當滑鼠蓋在連接上面時，文字大小變為 20，文字顏色變為綠色，而且下劃線會出現。</li>
+		<li>當連接被點擊時，文字顏色變為粉紅色，而且下劃線不會消失。</li>
+	</ol>
+	<p>請將您的滑鼠滑到以下的 『測試連接』上，您就可以看到以上樣是出現。</p>
+	<center>
+	<p class="link visited hover active"><a href="http://www.1keydata.com/css-tutorial/tw/sample.php">測試連接</a></p>
+	</center>
+	</div>
+	<p class="footer">下一頁： <a class="nodecoration" href="http://www.1keydata.com/css-tutorial/tw/list.php">CSS 清單</a></p>
+</body>
+</html>

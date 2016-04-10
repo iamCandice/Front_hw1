@@ -1,0 +1,158 @@
+.header{
+	background-color:#BBD9EE;
+	width:900px;
+	padding:10px;
+	color: #CC33CC;
+	font-size: 22px;
+	font-family:Georgia;
+}
+.container{
+	width:900px;
+	margin:0px auto;
+ 	padding-left:10px; 
+ 	padding-right:10px; 
+ 	 
+}
+.menu{
+	position: absolute;
+	background-color: #6600FF;
+	border-bottom: 1px;
+	width:170px;
+	margin: 0px;
+	
+
+	}
+.menu ul li{
+	list-style-type: none;
+	text-align:left;
+	font-size: 14px;
+	font-weight: bold;
+	font-family:PT Sans;
+	}
+.menu ul li a{
+	color:#ffffff;
+	text-decoration:none;
+	}
+.sidebody{
+ padding-left: 170px;
+ width: 730px;
+}
+.footer{
+	position:relative; 
+	left: 330px;
+}
+
+
+
+.font9px{
+	font-size:9px;
+}
+.font3em{
+	font-size: 3em;
+}
+.font3ex{
+	font-size: 3ex;
+}
+.font0.2in{
+	font-size: 0.2in;
+}
+.font0.5cm{
+	font-size: 0.5cm;
+}
+.font12mm{
+	font-size: 12mm;
+}
+.font24pt{
+	font-size: 24pt;
+}
+.font2pc{
+	font-size: 2pc;
+}
+.nodecoration{
+	text-decoration:none;
+}
+.DDDDDD{
+	background-color: #DDDDDD;
+	padding: 10px;
+}
+.CCFFCC{
+	background-color: #CCFFCC;
+	padding: 10px;
+}
+.006600{
+	color:#006600;
+	padding: 10px;
+}
+
+.ltr{
+  direction:ltr;
+}
+.rtl{
+	direction:rtl; 
+}
+.letterspacing{
+	 letter-spacing:8px; 
+}
+.linehight{
+	line-height:40px; 
+}
+.textleft{
+	text-align:left;
+}
+.textright{
+	text-align:right; 
+}
+.textcenter{
+	text-align:center; 
+}
+.textjustify{
+	text-align:justify; 
+}
+.underline{
+	text-decoration:underline;
+}
+.overline{
+	text-decoration:overline; 
+}
+.line-through{
+	text-decoration:line-through;
+}
+.indent{
+	text-indent:15px; 
+}
+.capitalize{
+	 text-transform:capitalize; 
+}
+.uppercase{
+	 text-transform:uppercase; 
+}
+.lowercase{
+	text-transform:lowercase; 
+}
+.wordspacing{
+	  word-spacing:5px; 
+}
+.paddingtopleftrightbottom{
+	padding-top:15px;
+  	padding-left:10px;
+ 	padding-right:30px;
+  	padding-bottom:40px;
+  	border: 1px solid; 
+	border-color:#000000; 
+	border-style:solid;
+	background-color:#CCFFCC;
+}
+
+.link
+{a:link; color:#FF0000; text-decoration:none;}
+.visited
+{a:visited; color:#0000FF; text-decoration:none;}
+.hover
+{a:hover; font-size:20; color:#00FF00; text-decoration:underline;}
+.active
+{a:active; color:#FF00FF; text-decoration:underline;} 
+	
+.bold{
+	font-family: impact;
+}
+
