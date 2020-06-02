@@ -1,0 +1,4 @@
+- 課程：Web 前端開發
+- 授課：六角學院 廖洧杰
+- 內容：於以下網址挑選出五個頁面以 **HTML** 與 **CSS** 進行設計
+- 網址：https://www.1keydata.com/css-tutorial/tw/class-id.php?fbclid=IwAR10lZ97yDovdvNCT71HsJsJm5fZI0Nkm8Q0GC4TEoh04H_Xndkr9j_mYvs
